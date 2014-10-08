@@ -1,10 +1,9 @@
 This a source code release of AnnSim.
-It has been tested on GNU/Linux.
+It has been tested on GNU/Linux and OS X.
 
 AnnSim
 ===========
-AnnSim is an similarity metric for
-Annotation Graphs
+AnnSim is an similarity metric for Annotation Graphs
 
 1) LICENSE
 ===========
@@ -12,18 +11,23 @@ GNU GENERAL PUBLIC LICENSE Version 2
 
 2) VERSION
 ===========
-1.0
+1.0.1
 
 3) CONTENT
 ==========
-* src: source code
-* test: set of test.
-** test/ncit: NCIt graph and list of terms
-** test/go: GO graph and list of terms
-** test/snomed: SNOMED graph and list of terms
-** test/geneAnnts: Gene families annotations
-** test/drugAnnts: Annotations of twelve anti-neoplastic
-   agents and monoclonal antibodies drugs.
+*    src: source code
+*    test: set of test.
+**   test/ACM_BCB_dataset2: Dataset 2 used in the publication [1].
+***  test/ACM_BCB_dataset2/ncit: NCIt graph and list of terms used in Dataset 2.
+**   test/ACM_BCB_dataset3: Dataset 3 used in the publication [1].
+***  test/ACM_BCB_dataset3/go: GO graph and list of terms used in Dataset 3.
+**   test/ACM_BCB_dataset4: Dataset 4 used in the publication [1].
+***  test/ACM_BCB_dataset4/go: GO graph and list of terms used in Dataset 4.
+
+[1] Palma, Guillermo; Vidal, Maria-Esther; Haag, Eric; Raschid, Louiqa; Thor, Andreas. 
+Measuring Relatedness Between Scientific Entities in Annotation Datasets. 
+Proceedings of the International Conference on Bioinformatics, Computational Biology and Biomedical Informatics (ACM BCB). 
+Washignton DC, USA. 2013
 
 4) REQUIREMENTS
 ===============
@@ -34,7 +38,7 @@ GNU GENERAL PUBLIC LICENSE Version 2
 ===============
 For GNU/Linux clean and generate necessary files
 
-   $>make veyclean
+   $>make veryclean
    $>make
 
 The executable file annsim is generated in the annsim directory
@@ -50,21 +54,21 @@ annsim command synopsis:
 
 The following are the command line options:
 
-<graph>			# Ontology graph file
-<terms> 		# File with the terms of the ontology
-<annotations 1> 	# File with annotations from the first concept
-<annotations 2>		# File with annotations from the second concept
+<graph>	      	      # Ontology graph file
+<terms>		      # File with the terms of the ontology
+<annotations 1>	      # File with annotations from the first concept
+<annotations 2>	      # File with annotations from the second concept
 
 
 6) RUNNING SOME SAMPLES
 =======================
 1) Compute the value of similarity between two genes.
 
-$>./annsim test/go/goGraph.txt test/go/go-term-desc.txt  test/geneAnnts/5-f-atpase/AtVHA-A.annt test/geneAnnts/5-f-atpase/AtVHA-C.annt
+$>./annsim test/ACM_BCB_dataset3/go/goGraph.txt test/ACM_BCB_dataset3/go/go-term-desc.txt test/ACM_BCB_dataset3/5-f-atpase/AtVHA-A.annt test/ACM_BCB_dataset3/5-f-atpase/AtVHA-C.annt
 
 2) Compute the value of similarity between two drugs.
 
-$>./annsim test/ncit/graphNCI.txt test/ncit/nci-term-desc.txt test/drugAnnts/Catumaxomab.txt test/drugAnnts/Panitumumab.txt
+$>./annsim test/ACM_BCB_dataset2/ncit/graphNCI.txt test/ACM_BCB_dataset2/ncit/nci-term-desc.txt test/ACM_BCB_dataset2/Catumaxomab.txt test/ACM_BCB_dataset2/Panitumumab.txt
 
 7) AnnSim File Formats
 ==========================
@@ -122,4 +126,4 @@ any comment, problem or suggestion.
 
 Guillermo Palma
 http://www.ldc.usb.ve/~gpalma
-gpalma@ldc.usb.ve
+gvpalma@usb.ve

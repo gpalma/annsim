@@ -1,0 +1,388 @@
+D00049, Antihyperuricemic Agents
+D00059, Antineoplastic Agents
+D00094, Fertility Agents
+D00095, Immunomodulatory Agents
+D00095, Immunosuppressive Agents
+D00106, Anti-Testosterone Agents
+D00106, Antineoplastic Agents
+D00110, Antiviral Agents
+D00113, Diagnostic Agents
+D00113, Imaging Agents
+D00136, Antihypocalcemic Agents
+D00136, Antihypoparathyroid Agents
+D00136, Bone Density Conservation Agents
+D00136, Calcium Channel Agonists
+D00136, Essential Vitamin
+D00136, Vitamins
+D00136, Vitamins (Vitamin D)
+D00139, Anti-Ulcer Agents
+D00139, Dietary supplement
+D00139, Micronutrient
+D00139, Radiation-Protective Agents
+D00180, Anti-Asthmatic Agents
+D00180, Anti-inflammatory Agents
+D00225, Contrast Media
+D00227, Anticholesteremic Agents
+D00227, Antineoplastic Agents
+D00227, HMG-CoA Reductase Inhibitors
+D00227, Hydroxymethylglutaryl-CoA Reductase Inhibitors
+D00232, Diuretics
+D00232, Diuretics, Thiazide
+D00232, Sodium Chloride Symporter Inhibitors
+D00234, Adrenergic Uptake Inhibitors
+D00234, Antidepressive Agents
+D00235, Cardiotonic Agents
+D00235, Phosphodiesterase Inhibitors
+D00235, Platelet Aggregation Inhibitors
+D00235, Vasodilator Agents
+D00241, Analgesics
+D00255, Antineoplastic Agents, Hormonal
+D00255, Carcinogens
+D00255, Estrogens, Non-Steroidal
+D00270, Antihypertensive Agents
+D00270, Calcium Channel Blockers
+D00270, Vasodilator Agents
+D00274, Anti-Bacterial Agents
+D00274, Cephalosporins
+D00281, Anesthetics
+D00281, Anesthetics, Local
+D00281, Anti-Arrhythmia Agents
+D00281, Antiarrhythmic Agents
+D00283, Anti-Allergic Agents
+D00283, Antipruritics
+D00283, Histamine H1 Antagonists
+D00295, Analgesics
+D00295, Analgesics, Opioid
+D00295, Narcotics
+D00295, Opiate Agonists
+D00300, Anti-HIV Agents
+D00300, Nucleoside and Nucleotide Reverse Transcriptase Inhibitors
+D00300, Reverse Transcriptase Inhibitors
+D00301, Anti-Bacterial Agents
+D00301, Penicillins
+D00306, Analgesics
+D00318, Analgesics
+D00318, Analgesics, Opioid
+D00318, Antitussive Agents
+D00318, Antitussives
+D00318, Narcotics
+D00318, Opiate Agonists
+D00332, Antimuscarinics
+D00332, Antispasmodics
+D00332, Bronchodilator Agents
+D00332, Cholinergic Antagonists
+D00336, Anti-Infective Agents
+D00336, Anti-Infective Agents, Local
+D00336, Anti-Infective Agents, Urinary
+D00336, Trypanocidal Agents
+D00356, Muscle Relaxants, Central
+D00364, Anti-Ulcer Agents
+D00371, Anti-anxiety Agents
+D00371, Anticonvulsants
+D00371, Hypnotics and Sedatives
+D00371, Muscle Relaxants, Central
+D00380, Antineoplastic Agents
+D00380, Cardiovascular Agents
+D00380, Chelating Agents
+D00380, Immunosuppressive Agents
+D00394, Anti-Asthmatic Agents
+D00394, Anti-inflammatory Agents
+D00394, Antiarrhythmic Agents
+D00394, Corticosteroids
+D00394, Glucocorticoids
+D00397, Adrenergic alpha-Agonists
+D00397, Appetite Depressants
+D00397, Nasal Decongestants
+D00397, Sympathomimetics
+D00400, Antibacterial Agents
+D00400, Antibiotics, Antifungal
+D00410, Anti-Bacterial Agents
+D00410, Antibiotics
+D00410, Protein Synthesis Inhibitors
+D00411, Analgesics, Non-Narcotic
+D00411, Cardiotonic Agents
+D00411, Cholinergic Agonists
+D00411, Miotics
+D00415, Anti-Bacterial Agents
+D00415, Penicillins
+D00419, Anti-HIV Agents
+D00419, Enzyme Inhibitors
+D00422, Adrenergic Agents
+D00422, Adrenergic Uptake Inhibitors
+D00422, Central Nervous System Stimulants
+D00422, Dopamine Uptake Inhibitors
+D00422, Sympathomimetics
+D00426, Antiviral Agents
+D00426, Nucleosides and Nucleotides
+D00426, Prodrugs
+D00432, Antimetabolites
+D00432, Antiviral Agents
+D00437, Antimetabolites
+D00437, Enzyme Inhibitors
+D00437, Enzyme Inhibitors Antimetabolites
+D00437, Free Radical Scavengers
+D00437, Gout Suppressants
+D00440, Anti-Infective Agents, Urinary
+D00440, Anti-Infectives
+D00440, Antimalarials
+D00440, Folic Acid Antagonists
+D00442, Antiviral Agents
+D00443, Anti-Asthmatic Agents
+D00443, Anti-inflammatory Agents
+D00443, Anti-inflammatory Agents, Steroidal
+D00443, Corticosteroid
+D00443, Glucocorticoids
+D00443, Immunosuppressive Agents
+D00451, Antithyroid Agents
+D00454, Adjuvants
+D00454, Adjuvants, Anesthesia
+D00454, Analgesics
+D00454, Analgesics, Opioid
+D00454, Narcotics
+D00454, Opiate Agonists
+D00465, Cyclooxygenase Inhibitors
+D00480, Antineoplastic Agents
+D00483, Neuromuscular Nondepolarizing Agents
+D00483, Nicotinic Antagonists
+D00483, Skeletal Muscle Relaxants
+D00493, Anti-Bacterial Agents
+D00493, Cephalosporins
+D00494, Antidyskinetics
+D00494, Antiparkinson Agents
+D00494, Central Nervous System Agents
+D00494, Enzyme Inhibitors
+D00498, Anticoagulants
+D00499, Androgen Antagonists
+D00499, Antineoplastic Agents, Hormonal
+D00503, Anti-HIV Agents
+D00503, HIV Protease Inhibitors
+D00509, Antihyperlipidemics
+D00513, Antifibrinolytic Agents
+D00514, Analgesics, Opioid
+D00514, Antitussive Agents
+D00514, Excitatory Amino Acid Antagonists
+D00520, Antifungal Agents
+D00520, Antifungals
+D00521, Adrenergic beta-Antagonists
+D00521, Anti-Arrhythmia Agents
+D00521, Antihypertensive Agents
+D00521, Sympatholytics
+D00522, Diagnostic aids
+D00522, Indicators and Reagents
+D00523, Antineoplastic Agents
+D00523, Keratolytic Agents
+D00524, Antihypertensive Agents
+D00524, Diuretics
+D00524, Diuretics, Sulfamyl
+D00525, Antifungal Agents
+D00528, Antihypertensive Agents
+D00528, Calcium Channel Blockers
+D00540, Adrenergic Uptake Inhibitors
+D00540, Antidepressants
+D00540, Antidepressive Agents, Tricyclic
+D00540, Norepinephrine-Reuptake Inhibitors
+D00542, Angiotensin-converting Enzyme Inhibitors
+D00542, Antihypertensive Agents
+D00559, Antihypertensive Agents
+D00560, Anti-Bacterial Agents
+D00560, Antibacterial Agents
+D00560, Tetracyclines
+D00563, Abortifacient Agents
+D00563, Abortifacient Agents, Nonsteroidal
+D00563, Antimetabolites
+D00563, Antimetabolites, Antineoplastic
+D00563, Antineoplastic Agents
+D00563, Antirheumatic Agents
+D00563, Dermatologic Agents
+D00563, Enzyme Inhibitors
+D00563, Folic Acid Antagonists
+D00563, Immunosuppressive Agents
+D00563, Nucleic Acid Synthesis Inhibitors
+D00574, Anorexigenic Agents
+D00574, Serotonin Agonists
+D00574, Serotonin reuptake inhibitor
+D00574, Stimulants
+D00598, Adrenergic alpha-Antagonists
+D00598, Adrenergic beta-Antagonists
+D00598, Antihypertensive Agents
+D00598, Sympatholytics
+D00601, Anti-Infective Agents
+D00601, Antibacterial Agents
+D00601, Protein Synthesis Inhibitors
+D00604, Anti-Ulcer Agents
+D00604, Gastrointestinal Agents
+D00604, Prokinetic Agents
+D00604, Serotonin Agonists
+D00606, Antihypertensive Agents
+D00606, Diuretics
+D00607, Anti-Bacterial Agents
+D00607, Penicillins
+D00609, Antitubercular Agents
+D00609, Fatty Acid Synthesis Inhibitors
+D00609, Leprostatic Agents
+D00613, Amebicides
+D00613, Antimalarials
+D00627, Antilipemic Agents
+D00627, Vasodilator Agents
+D00627, Vitamin B Complex
+D00627, Vitamins (Vitamin B Complex)
+D00632, Antiviral Agents
+D00632, Dermatologicals
+D00635, Adrenergic Agents
+D00635, Anti-inflammatory Agents
+D00635, Antineoplastic Agents
+D00635, Antineoplastic Agents, Hormonal
+D00635, Glucocorticoids
+D00645, Anesthetics, Local
+D00645, Anesthetics, Mucosal-Local
+D00646, Anti-Bacterial Agents
+D00646, Antifungal Agents
+D00646, Ionophores
+D00665, Androgen Antagonists
+D00665, Antineoplastic Agents
+D00666, Antiendometriotic agent
+D00666, Fertility Agents, Female
+D00666, Gonadotropin-releasing hormones
+D00673, Antiemetics
+D00674, Cholinesterase Inhibitors
+D00674, Nootropic Agents
+D00674, Parasympathomimetics
+D00675, Antineoplastic Agents, Hormonal
+D00675, Bone Density Conservation Agents
+D00675, Estrogen Antagonists
+D00675, Selective Estrogen Receptor Modulators
+D00676, Acaricides
+D00676, Insecticides
+D00682, Anticoagulants
+D00682, Coumarin and Indandione Derivatives
+D00682, Rodenticides
+D00683, Adjuvants, Anesthesia
+D00683, Anesthetics, Intravenous
+D00683, Anti-anxiety Agents
+D00683, GABA Modulators
+D00683, Hypnotics and Sedatives
+D00684, Aminoglycosides
+D00684, Anti-Bacterial Agents
+D00687, Adrenergic Agents
+D00687, Anti-inflammatory Agents
+D00688, Antineoplastic Agents
+D00688, Dermatologic Agents
+D00688, Enzyme Inhibitors
+D00688, Immunosuppressive Agents
+D00715, Antidepressants
+D00715, Antidepressive Agents, Second-Generation
+D00715, Selective Serotonin Reuptake Inhibitors (SSRIs)
+D00715, Serotonin Uptake Inhibitors
+D00726, Adrenergic Uptake Inhibitors
+D00726, Antidepressants
+D00726, Antidepressive Agents, Tricyclic
+D00726, Norepinephrine-Reuptake Inhibitors
+D00760, Anti-Bacterial Agents
+D00760, Antibacterials for Systemic Use
+D00765, Enzyme Inhibitors
+D00769, Anti-inflammatory Agents, Steroidal
+D00769, Corticosteroid
+D00769, Glucocorticoids
+D00769, Immunosuppressive Agents
+D00775, Fibrinolytic Agents
+D00775, Platelet Aggregation Inhibitors
+D00779, Anti-Infective Agents
+D00779, Enzyme Inhibitors
+D00779, Nucleic Acid Synthesis Inhibitors
+D00780, Antidepressants
+D00780, Antidepressive Agents
+D00780, Monoamine Oxidase Inhibitors
+D00790, Angiotensin-converting Enzyme Inhibitors
+D00790, Antihypertensive Agents
+D00837, Anticonvulsants
+D00837, Antidepressants
+D00837, Antidepressive Agents
+D00837, Antidyskinetics
+D00837, Antiparkinson Agents
+D00837, GABA Agonists
+D00838, Corticosteroids, topical
+D00845, Antimycobacterials
+D00845, Coloring Agents
+D00845, Dyes
+D00845, Leprostatic Agents
+D00954, Anti-Bacterial Agents
+D00954, Anti-Infectives
+D00954, Macrolides
+D00965, Antineoplastic Agents
+D00965, Contrast Media
+D00987, Antimetabolites
+D00987, Antimetabolites, Antineoplastic
+D00987, Antineoplastic Agents
+D00987, Antiviral Agents
+D00987, Immunosuppressive Agents
+D00996, Analgesics
+D00996, Anti-anxiety Agents
+D00996, Anticonvulsants
+D00996, Antimanic Agents
+D00996, Antiparkinson Agents
+D00996, Calcium Channel Blockers
+D00996, Excitatory Amino Acid Antagonists
+D01020, Nitrates and Nitrites
+D01020, Nitric Oxide Donors
+D01020, Vasodilator Agents
+D01022, Antifibrinolytic Agents
+D01022, Vitamins
+D01022, Vitamins (Vitamin K)
+D01024, Antibiotics, Antineoplastic
+D01024, Enzyme Inhibitors
+D01051, Anti-Bacterial Agents
+D01051, Enzyme Inhibitors
+D01051, Nucleic Acid Synthesis Inhibitors
+D01071, Bronchodilator Agents
+D01071, Histamine H1 Antagonists
+D01103, Anticestodal Agents
+D01103, Antihelmintics
+D01103, Antimalarials
+D01103, Antinematodal Agents
+D01103, Antineoplastic Agents
+D01103, Antiprotozoals
+D01103, Enzyme Inhibitors
+D01118, Anti-Arrhythmia Agents
+D01118, Enzyme Inhibitors
+D01118, Vasodilator Agents
+D01126, Anti-baldness Agents
+D01126, Antihyperplasia Agents
+D01126, Enzyme Inhibitors
+D01164, Supplements
+D01227, Analgesics, Opioid
+D01227, Narcotics
+D01236, Anesthetics, Inhalation
+D01236, Platelet Aggregation Inhibitors
+D01242, Antidepressive Agents, Tricyclicy
+D01242, Serotonin Uptake Inhibitors
+D01269, Antineoplastic Agents
+D01295, Adrenergic beta-Antagonists
+D01295, Antihypertensive Agents
+D01295, Calcium Channel Blockers
+D01297, Adrenergic beta-Antagonists
+D01297, Anti-Arrhythmia Agents
+D01324, Antihypertensive Agents
+D01324, Diuretics
+D01324, Sodium Chloride Symporter Inhibitors
+D01332, Anti-Bacterial Agents
+D01332, Cephalosporins
+D01390, Antidiarrheals
+D01441, Hallucinogens
+D01454, Adrenergic Uptake Inhibitors
+D01454, Hallucinogens
+D01454, Serotonin Agents
+D01603, Anti-Bacterial Agents
+D01603, Penicillins
+D01692, Sulfhydryl Reagents
+D02007, Mol_Id: 1
+D02066, Purine Nucleoside Phosphorylase inhibitor
+D02234, Enzyme Inhibitors
+D02234, Hypnotics and Sedatives
+D02234, Vasoconstrictor Agents
+D03880, Antineoplastic Agents
+D03880, Protease Inhibitors
+D03966, Antibacterial Agents
+D03966, Enzyme Inhibitors
+D03966, Nucleic Acid Synthesis Inhibitors
+D05246, Anticonvulsants
+D05246, Succinimides

@@ -1,0 +1,27 @@
+	
+Dataset 1
+=========
+
+30 pairs of diseases from the Mayo Clinic Benchmark.
+Diseases were annotated with NCIt version 12.05d. 
+Data-set 1 is used to compare (1 − dtax) and (1 − dps) using NCIt, SNOMED and MeSH.
+
+Dataset 2
+========
+
+12 anticancer drugs in the intersection of monoclonal antibodies and antineoplastic agents: 
+Alemtuzumab, Bevacizumab, Brentuximab vedotin, Ce- tuximab, Catumaxomab, Edrecolomab, 
+Gemtuzumab, Ipilimumab, Ofatumumab, Panitumumab, Rituximab, and Trastuzumab. 
+
+Dataset 3 
+========
+
+Corresponds to the Collaborative Evaluation of Semantic Similarity Measures (CESSM) 
+cillection that is published through the site http: //xldb.di.fc.ul.pt/tools/cessm/.
+
+Dataset 4
+========
+
+Corresponds to a collection of interactions between drugs and tar-gets from Drugbank 13. 
+This dataset was collected by Perlman et al. [20] and comprises 310 drugs, 210 targets, and 1,306 interactions.
+

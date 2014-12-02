@@ -1,0 +1,8 @@
+This dataset comprises  30 pairs of diseases from the Mayo Clinic Benchmark.
+Diseases were annotated with NCIt version 12.05d. 
+Data-set 1 is used to compare (1 − dtax) and (1 − dps) using NCIt, SNOMED and MeSH.
+
+For this dataset we used a collection of taxonomic measures tool called taxsim.
+The dataset and the tool are available in:
+
+https://code.google.com/p/taxsim/

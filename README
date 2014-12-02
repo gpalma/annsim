@@ -14,20 +14,27 @@ GNU GENERAL PUBLIC LICENSE Version 2
 1.0.1
 
 3) CONTENT
-==========
-*    src: source code
+===========
+*    src: source code.
+*    doc: information about the datasets.
 *    test: set of test.
-**   test/ACM_BCB_dataset2: Dataset 2 used in the publication [1].
-***  test/ACM_BCB_dataset2/ncit: NCIt graph and list of terms used in Dataset 2.
-**   test/ACM_BCB_dataset3: Dataset 3 used in the publication [1].
-***  test/ACM_BCB_dataset3/go: GO graph and list of terms used in Dataset 3.
-**   test/ACM_BCB_dataset4: Dataset 4 used in the publication [1].
-***  test/ACM_BCB_dataset4/go: GO graph and list of terms used in Dataset 4.
+**   test/ACM_BCB/dataset2: Dataset 2 used in the publication [1].
+***  test/ACM_BCB/dataset2/ncit: NCIt graph and list of terms used in Dataset 2.
+**   test/ACM_BCB/dataset3: Dataset 3 used in the publication [1].
+***  test/ACM_BCB/dataset3/go: GO graph and list of terms used in Dataset 3.
+**   test/ACM_BCB/dataset4: Dataset 4 used in the publication [1].
+***  test/ACM_BCB/dataset4/go: GO graph and list of terms used in Dataset 4.
+**   test/DATABASE_Journal : used in the publication [2] see test/DATABASE_Journal/README.
 
 [1] Palma, Guillermo; Vidal, Maria-Esther; Haag, Eric; Raschid, Louiqa; Thor, Andreas. 
 Measuring Relatedness Between Scientific Entities in Annotation Datasets. 
 Proceedings of the International Conference on Bioinformatics, Computational Biology and Biomedical Informatics (ACM BCB). 
 Washignton DC, USA. 2013
+
+[2] Palma, Guillermo; Vidal, Maria-Esther; Haag, Eric; Raschid, Louiqa; Thor, Andreas. 
+Determining Similarity of Scientific Entities in Annotation Datasets
+Database.
+ACM-BCB 2014 Virtual Issue.
 
 4) REQUIREMENTS
 ===============

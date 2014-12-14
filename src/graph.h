@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2012, Universidad Simón Bolívar
+ * Copyright (C) 2012, 2014 Universidad Simón Bolívar
  *
  * @brief Implementation of Abstract Data Type Graph how adjacents list
  * Copying: GNU GENERAL PUBLIC LICENSE Version 2

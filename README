@@ -9,11 +9,7 @@ AnnSim is an similarity metric for Annotation Graphs
 ===========
 GNU GENERAL PUBLIC LICENSE Version 2
 
-2) VERSION
-===========
-1.0.1
-
-3) CONTENT
+2) CONTENT
 ===========
 *    src: source code.
 *    doc: information about the datasets.
@@ -36,13 +32,13 @@ Determining Similarity of Scientific Entities in Annotation Datasets
 Database.
 ACM-BCB 2014 Virtual Issue.
 
-4) REQUIREMENTS
-===============
+3) REQUIREMENTS
+================
 * GNU Colecction Compiler (gcc)
 * GNU make (make).
 
-5) INSTALLATION
-===============
+4) INSTALLATION
+================
 For GNU/Linux clean and generate necessary files
 
    $>make veryclean
@@ -51,16 +47,17 @@ For GNU/Linux clean and generate necessary files
 The executable file annsim is generated in the annsim directory
 
 5) USAGE
-========
+=========
 The executable annsim have 4 mandatory command line options.
 Here, mandatory means that without specifying this option, the program won't work.
 
 annsim command synopsis:
 
-	 annsim <graph> <terms> <annotations 1> <annotations 2>
+	 annsim [-v] <graph> <terms> <annotations 1> <annotations 2>
 
 The following are the command line options:
 
+-v  	      	      # verbose output
 <graph>	      	      # Ontology graph file
 <terms>		      # File with the terms of the ontology
 <annotations 1>	      # File with annotations from the first concept
@@ -68,10 +65,10 @@ The following are the command line options:
 
 
 6) RUNNING SOME SAMPLES
-=======================
+========================
 1) Compute the value of similarity between two genes.
 
-$>./annsim test/ACM_BCB_dataset3/go/goGraph.txt test/ACM_BCB_dataset3/go/go-term-desc.txt test/ACM_BCB_dataset3/5-f-atpase/AtVHA-A.annt test/ACM_BCB_dataset3/5-f-atpase/AtVHA-C.annt
+$>./annsim -v test/ACM_BCB_dataset3/go/goGraph.txt test/ACM_BCB_dataset3/go/go-term-desc.txt test/ACM_BCB_dataset3/5-f-atpase/AtVHA-A.annt test/ACM_BCB_dataset3/5-f-atpase/AtVHA-C.annt
 
 2) Compute the value of similarity between two drugs.
 
@@ -82,7 +79,7 @@ $>./annsim test/ACM_BCB_dataset2/ncit/graphNCI.txt test/ACM_BCB_dataset2/ncit/nc
 The following explains the formats of the files used in the computation of the metric.
 
 7.1) Graph File Format
-======================
+=======================
 The graph of the ontology must be an Direct Acyclic Graph (DAG).
 The vertices of the graph are the identifiers of the terms of the ontology.
 The first line has the following format:
@@ -101,7 +98,7 @@ a source node, a  target node, and the cost of the arc:
 <<source nodeN>>[TAB]<<target nodeN>>[TAB]<<costN>>
 
 7.2) File format of identifiers
-===============================
+================================
 We have a file with the IDs of the terms of the ontology and its description
 The format is as follows:
 <<Number of terms>>
@@ -114,7 +111,7 @@ The format is as follows:
 Note that the number of terms must be equal to the number of nodes of the graph.
 
 7.3) Annotation File Format
-===========================
+============================
 The format is as follows:
 
 <<Number of annotations>>
@@ -127,7 +124,7 @@ The format is as follows:
 Where <<annotationX>> is the identifier of the annotation in the ontology.
 
 8) CONTACT
-==========
+===========
 I hope you find AnnSim an useful tool. Please, let me know
 any comment, problem or suggestion.
 

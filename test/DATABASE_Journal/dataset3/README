@@ -1,0 +1,18 @@
+These are the data files to obtain the similarities
+to upload in the CESSM evaluation online tool [1].
+
+Folder content:
+
+* cellular_annt: Protein annotations with GO type Cellular Component.
+* molecularFunction_annt: Protein annotations with GO type Molecular Function.
+* process_annt: Protein annotations with GO type Biological Process.
+* runCellular.sh: Shell script to obtain the protein similarities using the GO type Cellular Component.
+* runMolecularFunction.sh: Shell script to obtain the protein similarities using the GO type Molecular Function. 
+* runBiologicalProcess.sh: Shell script to obtain the protein similarities using the GO type Biological Process.
+
+Run a shell script to obtain the pairwise protein similarities.
+The shell script output is a file with extension .out.
+The .out file is the file to upload in [2].
+
+[1] http://xldb.di.fc.ul.pt/tools/cessm/index.php
+[2] http://xldb.di.fc.ul.pt/tools/cessm/upload.php

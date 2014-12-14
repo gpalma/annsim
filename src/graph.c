@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2012, Universidad Simón Bolívar
+ * Copyright (C) 2012, 2014 Universidad Simón Bolívar
  *
  * @brief Implementation of Abstract Data Type Graph
  * Copying: GNU GENERAL PUBLIC LICENSE Version 2
@@ -103,17 +103,19 @@ void add_reprensentative_ancestor(struct graph *g)
   unsigned long i, n;
   VEC(long) zdegree;
 
-  n = g->n_nodes+1;
+  n = g->n_nodes;
+  if (g->degree[0].din != 0)
+    fatal("The root no has in-degree equal to zero\n");
+  
   VEC_INIT(long, zdegree);
   for (i = 1; i < n; i++) {
     if (g->degree[i].din == 0) {
       VEC_PUSH(long, zdegree, i);
     }
   }
-  if (VEC_SIZE(zdegree) > 1) {
-    g->n_nodes++;
+  if (VEC_SIZE(zdegree) > 0) {
 #ifdef PRGDEBUG
-    printf("\n ** DAG with %ld roots ** \n", VEC_SIZE(zdegree));
+    printf("\n ** Graph with %ld nodos with in-degree zero ** \n", VEC_SIZE(zdegree));
 #endif
     for (i = 0; i < VEC_SIZE(zdegree); i++) {
       add_arc_to_graph(g, g->n_edges, ROOT, VEC_GET(zdegree, i), COST);

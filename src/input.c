@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2013 Universidad Simón Bolívar
+ * Copyright (C) 2013, 2014 Universidad Simón Bolívar
  *
  * Copying: GNU GENERAL PUBLIC LICENSE Version 2
  * @author Guillermo Palma <gpalma@ldc.usb.ve>
@@ -717,6 +717,8 @@ struct input_data get_input_ontology_data(const char *graph_filename,
   in.anntt1 = get_annotations(&sa1, &term_pos);
   in.anntt2 = get_annotations(&sa2, &term_pos);
   in.g = generate_internal_graph(&gd, &term_pos);
+  add_reprensentative_ancestor(&in.g);
+      
 #ifdef PRGDEBUG
   print_graph_data(&gd);
   print_term_data(&td);
